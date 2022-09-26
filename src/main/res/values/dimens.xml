@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="icon_size">80dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="one">1dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+
+    <dimen name="toolbar_elevation">2dp</dimen>
+    <dimen name="heading_text_size">16sp</dimen>
+    <dimen name="value_text_size">14sp</dimen>
+
+</resources>

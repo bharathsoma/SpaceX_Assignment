@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1276011206/SpaceX_Assignment.iml" filepath="$PROJECT_DIR$/.idea/modules/-1276011206/SpaceX_Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpaceX_Assignment.app.iml" filepath="$PROJECT_DIR$/.idea/modules/SpaceX_Assignment.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpaceX_Assignment.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SpaceX_Assignment.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpaceX_Assignment.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpaceX_Assignment.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpaceX_Assignment.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SpaceX_Assignment.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1766250335/SpaceX_Assignment.data.iml" filepath="$PROJECT_DIR$/.idea/modules/1766250335/SpaceX_Assignment.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1766250335/SpaceX_Assignment.data.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1766250335/SpaceX_Assignment.data.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1766250335/SpaceX_Assignment.data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1766250335/SpaceX_Assignment.data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1766250335/SpaceX_Assignment.data.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1766250335/SpaceX_Assignment.data.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1119771225/SpaceX_Assignment.network.iml" filepath="$PROJECT_DIR$/.idea/modules/1119771225/SpaceX_Assignment.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1119771225/SpaceX_Assignment.network.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1119771225/SpaceX_Assignment.network.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1119771225/SpaceX_Assignment.network.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1119771225/SpaceX_Assignment.network.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1119771225/SpaceX_Assignment.network.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1119771225/SpaceX_Assignment.network.unitTest.iml" />
+    </modules>
+  </component>
+</project>

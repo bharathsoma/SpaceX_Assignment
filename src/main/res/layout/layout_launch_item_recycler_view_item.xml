@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPatch"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMissionNameLbl"
+        style="@style/heading"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:text="@string/launch_list_item_mission_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivPatch"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMissionName"
+        style="@style/description"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivPatch"
+        app:layout_constraintTop_toBottomOf="@id/tvMissionNameLbl"
+        tools:text="mission name" />
+
+    <TextView
+        android:id="@+id/tvRocketNameLbl"
+        style="@style/heading"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:text="@string/launch_list_item_rocket_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivPatch"
+        app:layout_constraintTop_toBottomOf="@id/tvMissionName" />
+
+    <TextView
+        android:id="@+id/tvRocketName"
+        style="@style/description"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivPatch"
+        app:layout_constraintTop_toBottomOf="@id/tvRocketNameLbl"
+        tools:text="rocket name" />
+
+    <TextView
+        android:id="@+id/tvSiteNameLbl"
+        style="@style/heading"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:text="@string/launch_list_item_launch_site_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivPatch"
+        app:layout_constraintTop_toBottomOf="@id/tvRocketName" />
+
+    <TextView
+        android:id="@+id/tvSiteName"
+        style="@style/description"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivPatch"
+        app:layout_constraintTop_toBottomOf="@id/tvSiteNameLbl"
+        tools:text="launch site name" />
+
+    <TextView
+        android:id="@+id/tvDateOfLaunchLbl"
+        style="@style/heading"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:text="@string/launch_list_item_date_of_launch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivPatch"
+        app:layout_constraintTop_toBottomOf="@id/tvSiteName" />
+
+    <TextView
+        android:id="@+id/tvDateOfLaunch"
+        style="@style/description"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivPatch"
+        app:layout_constraintTop_toBottomOf="@id/tvDateOfLaunchLbl"
+        tools:text="date of launch" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one"
+        android:layout_marginHorizontal="@dimen/dimen_8dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:background="@color/dividerColor"
+        app:layout_constraintTop_toBottomOf="@id/tvDateOfLaunch" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
